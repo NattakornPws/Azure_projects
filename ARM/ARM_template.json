@@ -1,10 +1,7 @@
-// To deploy, save this file with a ".json" extension.
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
  "contentVersion": "1.0.0.0", 
-// Defines the template's version.
   "parameters": { 
-// This section defines user-configurable values for the deployment.
     "vmSize": {
       "type": "string",
       "defaultValue": "Standard_DS1_v2",
